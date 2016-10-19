@@ -74,6 +74,10 @@ public class DSAProject1
 				System.out.println("Thank you for using this program. Have a nice day!\n");
 			}
 			
+			else if(userInput.length() < 8)
+			{
+				System.out.println("That is not the correct length string for a phone number.\n");
+			}
 			else
 			{
 				// Search for that number in linked lists; return all names associated with that number
