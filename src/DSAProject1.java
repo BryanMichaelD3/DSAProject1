@@ -74,9 +74,9 @@ public class DSAProject1
 				System.out.println("Thank you for using this program. Have a nice day!\n");
 			}
 			
-			else if(userInput.length() < 8)
+			else if(userInput.length() != 8)
 			{
-				System.out.println("That is not the correct length string for a phone number.\n");
+				System.out.println("That is not the correct length for a phone number.\n");
 			}
 			else
 			{
